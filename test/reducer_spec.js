@@ -72,7 +72,7 @@ describe('reducer', () => {
         const finalState = actions.reduce(reducer, Map());
 
         expect(finalState).to.equal(fromJS({
-            winner: 'Trainspotti1ng'
+            winner: 'Trainspotting'
         }));
     })
 
